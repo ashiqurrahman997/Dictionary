@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="65sp"
+    android:background="@drawable/a"
+    android:id="@+id/mainfrm"
+    >
+
+    <Button
+        android:id="@+id/Meaning"
+        style="@android:style/Widget.Holo.Light.Button.Small"
+        android:layout_width="270sp"
+        android:layout_height="60sp"
+        android:layout_marginBottom="30sp"
+        android:layout_marginTop="40sp"
+        android:onClick="meaning_btn_clk"
+        android:text="Meaning"
+        android:textSize="20sp"
+
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/quize"
+        style="@android:style/Widget.Holo.Light.Button.Small"
+        android:layout_width="270sp"
+        android:layout_height="60sp"
+        android:layout_marginBottom="30sp"
+        android:onClick="quize_btn_clk"
+        android:text="Quiz"
+
+        android:textSize="20sp"
+
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/History"
+        style="@android:style/Widget.Holo.Light.Button.Small"
+        android:textSize="20sp"
+
+        android:layout_width="270sp"
+        android:layout_height="60sp"
+        android:layout_marginBottom="30sp"
+        android:onClick="history_btn_clk"
+        android:text="History"
+
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/bookmark"
+        style="@android:style/Widget.Holo.Light.Button.Small"
+
+        android:layout_width="270sp"
+        android:layout_height="60sp"
+        android:layout_marginBottom="30sp"
+        android:onClick="bookmark_btn_clk"
+        android:text="Favourite"
+        android:textSize="20sp"
+
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/about"
+        style="@android:style/Widget.Holo.Light.Button.Small"
+        android:textSize="20sp"
+        android:layout_width="270sp"
+        android:layout_height="60sp"
+        android:layout_marginBottom="0sp"
+        android:onClick="about_btn_clk"
+        android:text="About"
+
+        android:textStyle="bold" />
+</LinearLayout>
