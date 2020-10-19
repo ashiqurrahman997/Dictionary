@@ -1,2 +1,2 @@
 # Dictionary
-A Dictionary with quize facilities
+A Dictionary with quize facilities in Andriod
